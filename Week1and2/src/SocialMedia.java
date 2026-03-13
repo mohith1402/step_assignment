@@ -12,7 +12,7 @@ public class SocialMedia {
         return !usernames.containsKey(username);
     }
 
-    public List<String> gitsuggestAlternatives(String username) {
+    public List<String> suggestAlternatives(String username) {
         List<String> suggestions = new ArrayList<>();
         suggestions.add(username + "1");
         suggestions.add(username + "2");
